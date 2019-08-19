@@ -11,11 +11,15 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  
+  array.pop(2)
 end
 
 def using_shift(array)
   array.shift
+end
+
+def shift_with_args
+  array.shift(2)
 end
 
 def using_concat(array1, array2)
@@ -24,4 +28,8 @@ end
 
 def using_insert(array, element)
   array.insert(4, element)
+end
+
+def using_uniq(array)
+  array.uniq
 end
